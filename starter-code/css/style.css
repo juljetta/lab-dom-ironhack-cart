@@ -2,6 +2,30 @@ input {
   border: solid 1px black;
 }
 
+.product-wraper {
+  padding: 5% 20%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.calc-price-button {
+  margin-top: 50px;
+}
+
+.create-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 20%;
+  align-content: center;
+}
+
+.total-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 20%;
+}
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -25,15 +49,21 @@ input {
 }
 
 .btn-success {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
 }
 
 .btn-delete {
-    color: #fff;
-    background-color: #CF000F;
-    border-color: #CF000F;
+  color: #fff;
+  background-color: #cf000f;
+  border-color: #cf000f;
+}
+
+#btn-add {
+  color: #fff;
+  background-color: blue;
+  border-color: blue;
 }
 
 .quantity {

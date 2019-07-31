@@ -1,14 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" src="./js/index.js"></script>
-  <title>Ironhack cart</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="text/javascript" src="./js/index.js"></script>
+    <title>Ironhack cart</title>
+  </head>
+  <body>
+    <div id="all-products">
+      <div class="product-wraper">
+        <div>
+          <span class="product-name">IronBubble-head</span>
+        </div>
+        <div>
+          $
+          <span class="price">25</span>
+        </div>
+
+        <div>
+          <div class="label">
+            <input type="number" class="quantity" placeholder="0" />
+          </div>
+        </div>
+
+        <div>
+          $
+          <span class="total">0</span>
+        </div>
+
+        <button type="button" class="btn-delete">
+          Delete
+        </button>
+      </div>
+
+      <!-- Second Product -->
+
+      <div class="product-wraper">
+        <div>
+          <span class="product-name">IronBubble-head</span>
+        </div>
+        <div>
+          $
+          <span class="price">25</span>
+        </div>
+        <div>
+          <div class="lable">
+            <input type="number" class="quantity" placeholder="0" />
+          </div>
+        </div>
+        <div>$ <span class="total">0</span></div>
+        <button type="button" class="btn-delete">
+          Delete
+        </button>
+      </div>
+    </div>
+    <div class="create-section">
+      <input type="text" id="name" />
+      <input type="number" id="price" />
+
+      <button type="button" id="btn-add">
+        Create
+      </button>
+    </div>
+    <div class="total-section">
+      <h2>
+        Total Price: $
+        <span id="total-cart-price">0</span>
+      </h2>
+      <button type="button" id="calc-prices-button" class="btn-success">
+        Calculate Price
+      </button>
+    </div>
+  </body>
 </html>
